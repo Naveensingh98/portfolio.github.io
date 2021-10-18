@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" media="screen and(max-width:800px)" href="table.css">
+    <style>
+       #home::before{
+        content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+           background-image: url('img/image3.jpg');
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 900px;
+           width: 100%;
+           z-index: -1;
+           opacity: .8;
+       }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Sservices</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I Am <br>Naveen Singh</h1>
+            <button class="btn">
+                Hire me
+            </button>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            
+            <img src="img/image4.jpg" alt="">
+            <div id="intro">
+                <h2>Naveen Singh</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum alias voluptates facere error eum 
+                    laboriosam aspernatur, delectus aperiam ratione quidem? Sit vero molestias mollitia, magni quod commodi sequi ratione
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia totam ex quis repudiandae deleniti excepturi assumenda 
+                    sectetur, quas nisi fugit quasi incidunt ipsum nulla, aut odit beatae atque ipsa ab numquam! Delectus, recusandae 
+                    corporis. Voluptatum repellendus distinctio sit architecto quasi sunt doloremque, sapiente sint veniam asperiores 
+                    quidem consequuntur facere officiis aperiam ipsa ab necessitatibus quos neque exercitationem aliquid eius dolore 
+                    voluptate impedit. Voluptatem omnis delectus quia doloremque dolor illo, quaerat in. Provident soluta atque eaque 
+                    rerum consequuntur doloremque itaque facere officia? Voluptatum aliquid dolor quam! Inventore facilis iusto illo, 
+                    qui consequatur
+                     tempora tenetur, nobis, ducimus reprehenderit laboriosam cumque harum amet. 
+                    e aliquam itaque, eligendi aut repudiandae eius dolor tempora 
+                    rem nobis dolores nemo quos aperiam a, modi aliquid vel! Animi.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="img/image5.jpg" alt="">
+            <img src="img/image6.jpg" alt="">
+            <img src="img/image7.jpg" alt="">
+            <img src="img/image8.jpg" alt="">
+            <img src="img/image9.jpg" alt="">
+            <img src="img/image10.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <h1 class="headings">Website Designe</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, voluptatum illo totam facilis placeat natus quas
+                     ipsam sunt neque modi assumenda enim exercitationem, eligendi laudantium. Non voluptatem illo doloremque rerum 
+                     laudantium quisquam molestias, aspernatur debitis ducimus voluptatum. Dolorum ullam, tenetur perspiciatis aspernatur
+                     voluptas dolor suscipit impedit,
+                     ipsum sed fugiat minima?</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">UX/UI <br> Designe</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, voluptatum illo totam facilis placeat natus quas
+                     ipsam sunt neque modi assumenda enim exercitationem, eligendi laudantium. Non voluptatem illo doloremque rerum 
+                     laudantium quisquam molestias, aspernatur debitis ducimus voluptatum. Dolorum ullam, tenetur perspiciatis aspernatur
+                     voluptas dolor suscipit impedit,
+                     ipsum sed fugiat minima?</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Digiital Marketing</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, voluptatum illo totam facilis placeat natus quas
+                     ipsam sunt neque modi assumenda enim exercitationem, eligendi laudantium. Non voluptatem illo doloremque rerum 
+                     laudantium quisquam molestias, aspernatur debitis ducimus voluptatum. Dolorum ullam, tenetur perspiciatis aspernatur
+                     voluptas dolor suscipit impedit,
+                     ipsum sed fugiat minima?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email"class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="send" id="send">
+        </form>
+    </section>
+</body>
+</html>
